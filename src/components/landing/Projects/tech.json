@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "name": "Javascript",
+    "link": "https://en.wikipedia.org/wiki/JavaScript",
+    "icon": "/icons/js.png"
+  },
+  {
+    "id": 3,
+    "name": "Vue",
+    "link": "https://vuejs.org/",
+    "icon": "/icons/vue.png"
+  },
+  {
+    "id": 4,
+    "name": "Vuex",
+    "link": "https://vuex.vuejs.org/",
+    "icon": "/icons/vuex.png"
+  }
+]

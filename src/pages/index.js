@@ -1,13 +1,17 @@
 import React from 'react';
 import { Layout, SEO } from 'components/common';
-import { Intro, Skills, Contact, Projects } from 'components/landing';
+import { Intro, Skills, Contact, Projects, MoreStuff, CompaniesIveWorkedWith, AboutMe } from 'components/landing';
 
 export default () => (
   <Layout>
     <SEO />
     <Intro />
-    <Projects />
+    {/* <AboutMe /> */}
     <Skills />
+    <CompaniesIveWorkedWith />
+    <Projects />
+    {<MoreStuff />}
+    {/* <AboutMe /> */}
     <Contact />
   </Layout>
 );

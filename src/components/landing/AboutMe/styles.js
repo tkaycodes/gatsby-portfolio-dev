@@ -1,22 +1,12 @@
 import styled from 'styled-components';
-// import detailsIllustration from 'assets/illustrations/details.svg';
-
-import woods from 'assets/background.jpg';
-// style={{backgroundImage: `url(${woods})`}}
+import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  background-image: url(${woods});
-  background-size: auto;
+  background-image: url(${detailsIllustration});
+  background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
 `;
-
-// export const Wrapper = styled.div`
-//   background-image: url(${detailsIllustration});
-//   background-size: contain;
-//   background-position: left top;
-//   background-repeat: no-repeat;
-// `;
 
 export const SkillsWrapper = styled.div`
   padding: 4rem 0;
@@ -63,7 +53,6 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-  position: relative;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -72,5 +61,16 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+    
+    &.ubc-logo {
+      @media (max-width: 960px) {
+        
+      }
+      @media (min-width: 961px) {
+        padding: 300px 10px;
+      }
+    }
   }
+
+  
 `;

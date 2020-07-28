@@ -5,6 +5,8 @@ import Recaptcha from 'react-google-recaptcha';
 import * as Yup from 'yup';
 import { Button, Input } from 'components/common';
 import { Error, Center, InputField } from './styles';
+import curvedArrow from 'assets/curvedarrow.png';
+
 
 export default () => (
   <Formik
@@ -48,7 +50,9 @@ export default () => (
     }}
   >
     {({ values, touched, errors, setFieldValue, isSubmitting }) => (
+
       <Form>
+        
         <InputField>
           <Input
             as={FastField}
@@ -106,10 +110,18 @@ export default () => (
             </Center>
           </InputField>
         )}
-        <Center>
+        <Center style={{position: 'relative'}}>
+        {/* <p>
+            I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote only</span> opportunities building with <span style={{color: 'rgb(0, 116, 217)'}}>javascript</span>
+          </p> */}
           <Button secondary type="submit" disabled={isSubmitting}>
-            Submit
+            Lets Connect
           </Button>
+
+          <img src={curvedArrow} style={{transform: 'rotate(380deg)', maxWidth: '40px', left: '-10px', position: 'absolute', top: '-15px', bottom: '50px'}} />
+          <p style={{fontSize: '12pt', marginTop: '20px'}}>
+           I like to build things that are scalable, optimized and visually appealing. I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote only</span> opportunities building cool things with <span style={{color: 'rgb(0, 116, 217)'}}>Javascript</span>
+          </p>
         </Center>
       </Form>
     )}

@@ -14,6 +14,7 @@ export const Button = styled.button`
   user-select: none;
   color: #fff;
   background: #0074d9;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
 
   &:focus {
     outline: none;
@@ -21,6 +22,10 @@ export const Button = styled.button`
 
   &:disabled {
     background: gray;
+  }
+
+  &:hover {
+    transform: scale(0.9);
   }
 
   ${({ secondary }) =>

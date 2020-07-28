@@ -1,22 +1,28 @@
 import styled from 'styled-components';
-// import detailsIllustration from 'assets/illustrations/details.svg';
-
-import woods from 'assets/background.jpg';
-// style={{backgroundImage: `url(${woods})`}}
+import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  background-image: url(${woods});
-  background-size: auto;
-  background-position: left top;
+  background-image: url(${detailsIllustration});
+  background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
+  @media (max-width: 960px) {
+    .companiesLong {
+      display: none;
+    } 
+    .companiesBlack {
+      max-width: 100%;
+    } 
+  }
+  @media (min-width: 961px) {
+    .companiesBlack {
+      display: none;
+    } 
+    .companiesLong {
+      max-width: 600px;
+    } 
+  }
 `;
-
-// export const Wrapper = styled.div`
-//   background-image: url(${detailsIllustration});
-//   background-size: contain;
-//   background-position: left top;
-//   background-repeat: no-repeat;
-// `;
 
 export const SkillsWrapper = styled.div`
   padding: 4rem 0;
@@ -63,11 +69,11 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-  position: relative;
 
   @media (max-width: 960px) {
     width: 100%;
     margin-bottom: 2rem;
+    margin-top: 5rem;
   }
 
   img {
