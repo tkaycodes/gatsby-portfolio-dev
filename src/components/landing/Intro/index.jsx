@@ -29,7 +29,7 @@ export const Intro = () => {
             paddingTop: '20px',
             marginBottom: '40px',
             color: '#707070'}}>
-              I like to build things that are scalable, optimized and visually appealing. 
+              I like to build things that are scalable, secure and visually appealing. 
               I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote only </span> 
               opportunities building cool things with <span style={{color: 'rgb(0, 116, 217'}}>Javascript</span>
           </p>
