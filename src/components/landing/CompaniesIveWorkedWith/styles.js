@@ -3,8 +3,11 @@ import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
   background-image: url(${detailsIllustration});
-  background-size: cover;
-  background-position: right;
+  @media (max-width: 960px) {
+    background-image: ${({ theme }) => (theme === 'dark' && 'none')};
+  }
+  background-size: contain;
+  background-position: left;
   background-repeat: no-repeat;
   @media (max-width: 960px) {
     .companiesLong {
@@ -72,8 +75,7 @@ export const Thumbnail = styled.div`
 
   @media (max-width: 960px) {
     width: 100%;
-    margin-bottom: 2rem;
-    margin-top: 5rem;
+    margin-bottom: 4rem;
   }
 
   img {
