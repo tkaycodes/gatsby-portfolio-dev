@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 import overlayIllustration from 'assets/illustrations/overlay.svg';
+import overlayDarkIllustration from 'assets/illustrations/overlay-dark.svg';
+
 
 export const Wrapper = styled.div`
   padding-bottom: 4rem;
   background-image: url(${overlayIllustration});
   background-size: contain;
-  background-position: right top;
   background-repeat: no-repeat;
+  background-position: 40vw -30vw;
+  @media (max-width: 960px) {
+    background-position: 60vw -40vw;
+  }
 `;
 
 export const IntroWrapper = styled.div`

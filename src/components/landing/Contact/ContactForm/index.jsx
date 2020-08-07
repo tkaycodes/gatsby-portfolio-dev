@@ -121,7 +121,7 @@ export default () => (
 
           <img src={curvedArrow} style={{transform: 'rotate(380deg)', maxWidth: '40px', left: '-10px', position: 'absolute', top: '-15px', bottom: '50px'}} />
           <p style={{fontSize: '12pt', marginTop: '20px'}}>
-           I like to build things that are scalable, secure and visually appealing. I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote only</span> opportunities building cool things with <span style={{color: 'rgb(0, 116, 217)'}}>Javascript</span>
+           I like to build things that are visually appealing while maintaining a modular, secure and performant architecture. I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote</span> opportunities building cool things with <span style={{color: 'rgb(0, 116, 217)'}}>Javascript</span>
           </p>
         </Center>
       </Form>

@@ -31,7 +31,7 @@ export const Contact = () => (
     }}>
     </Thumbnail> */}
     <Details style={{position: 'relative'}}>
-    <img src={contact} alt="I've been a full-time coder for over 5 years" 
+    <img src={contact} alt="I've been a full-time coder for over 4 years" 
             style={{
               // transform: 'rotate(5deg)', 
               maxWidth: '400px'

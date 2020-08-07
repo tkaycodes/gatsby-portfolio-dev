@@ -48,7 +48,7 @@ export const Skills = () => {
           {/* </div> */}
         </Thumbnail>
       <Details theme={theme}>
-          <h1>Ive been <span style={{color: 'rgb(108 175 233)'}}>coding</span> with North American (Canada, USA) teams  <span style={{color: 'rgb(108 175 233)'}}>full-time</span> for over <span style={{color: 'rgb(108 175 233)'}}>5 years</span></h1>
+          <h1>Ive been <span style={{color: 'rgb(108 175 233)'}}>coding</span> with North American (Canada, USA) teams  <span style={{color: 'rgb(108 175 233)'}}>full-time</span> for over <span style={{color: 'rgb(108 175 233)'}}>4 years</span></h1>
           <p style={{color: 'white', borderBottom: '1px solid white', paddingBottom: '15px'}}>
             <span style={{color: 'rgb(108 175 233)'}}>Frontend:</span> Javascript, Vue, Vuex, React, Redux, SPA, PWA, MVVM, jQuery, AJAX, Webpack, HTML, CSS, SASS
           </p>
