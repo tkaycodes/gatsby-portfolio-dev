@@ -9,8 +9,8 @@ export default () => (
     {/* <AboutMe /> */}
     <Skills />
     <CompaniesIveWorkedWith />
-    <Projects />
-    {<MoreStuff />}
+    {/* <Projects /> */}
+   {<MoreStuff />}
     {/* <AboutMe /> */}
     <Contact />
   </Layout>

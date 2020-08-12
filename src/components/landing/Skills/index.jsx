@@ -33,7 +33,7 @@ export const Skills = () => {
       <Details theme={theme}>
           <h1>Ive been <span className="highLightText">coding</span> with North American (Canada, USA) teams  <span className="highLightText">full-time</span> for over <span className="highLightText">4 years</span></h1>
           <p style={{color: 'white', borderBottom: '1px solid white', paddingBottom: '15px'}}>
-            <span className="highLightText">Frontend:</span> Javascript, Vue, Vuex, React, Redux, SPA, PWA, MVVM, jQuery, AJAX, Webpack, HTML, CSS, SASS
+            <span className="highLightText">Frontend:</span> Javascript (React, Redux, Vue, Vuex, SPA, PWA, MVVM, jQuery, AJAX), Webpack, HTML, CSS, SASS
           </p>
           <div style={{
             fontSize: '14pt', 

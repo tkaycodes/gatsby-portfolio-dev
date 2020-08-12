@@ -13,7 +13,13 @@
   },
   {
     "id": 4,
-    "name": "NuxtJS",
+    "name": "Vuex",
+    "link": "https://vuex.vuejs.org/",
+    "icon": "/icons/vuex.png"
+  },
+  {
+    "id": 5,
+    "name": "Nuxt",
     "link": "https://nuxtjs.org/",
     "icon": "/icons/nuxt.svg"
   }

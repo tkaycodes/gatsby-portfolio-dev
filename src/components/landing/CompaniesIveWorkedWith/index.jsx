@@ -68,7 +68,7 @@ export const CompaniesIveWorkedWith = () => {
             Weather its updating code bases, or re-designing entire websites or apps -- I have a proven record of getting real results for real businesses.
           </p> */}
 
-          <Button as={AnchorLink} href="#projects">
+          <Button as={AnchorLink} href="#project1">
            See latest projects
           </Button>
         </Details>

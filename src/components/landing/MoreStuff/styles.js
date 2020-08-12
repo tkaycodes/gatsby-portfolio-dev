@@ -3,9 +3,13 @@ import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
   background-image: url(${detailsIllustration});
-  background-size: contain;
+  background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
+
+  @media (max-width: 960px) {
+    background-image: ${({ theme }) => (theme === 'dark' && 'none')};
+  }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -61,7 +65,13 @@ export const Thumbnail = styled.div`
 
   img {
     width: 100%;
+    margin-left: -100px;
   }
+
+  @media (max-width: 960px) {
+    max-width: 350px;
+  }
+
 `;
 
 
@@ -82,4 +92,49 @@ export const Links = styled.div`
       margin: 0;
     }
   }
+
+  .vuex {
+    img {
+      vertical-align: bottom;
+    }
+  }
+
+  .techlink {
+    color: ${({ theme }) => (theme === 'dark' && 'white')};
+    background: ${({ theme }) => (theme === 'dark' && '#181717')};
+    border: ${({ theme }) => (theme === 'dark' && '1px solid white')};
+
+  }
+  
 `;
+
+export const PhoneOutline = styled.div`
+  position: absolute; 
+  display: inline-block;
+  background-size: 230px;
+  height: 410px;
+  width: 210px;
+  right: 0%;
+  top: 20%;
+  
+
+  @media (max-width: 1280px) {
+    right: 0;
+    top: 40%;
+  }
+
+
+  @media (max-width: 960px) {
+    top: -30%;
+  }
+`;
+
+export const PhoneImage = styled.div`
+  background-size: 175px;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-position: 25px 40px;
+  @media (max-width: 960px) {
+    
+  }
+`
