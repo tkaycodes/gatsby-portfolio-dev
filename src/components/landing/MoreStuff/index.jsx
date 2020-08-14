@@ -49,8 +49,7 @@ export const MoreStuff = () => {
                 </a>
               ))}
             </Links>
-            <hr></hr>
-
+            <hr style={{ background: theme === 'dark' && 'white'  }}></hr>
               <ul style={{
                   marginBottom: '2.5rem',
                   fontSize: '10pt',
@@ -60,7 +59,7 @@ export const MoreStuff = () => {
                 }}
               >
                 <li>Built using Vue JS for reactive data binding, performant interface</li>
-                <li>SPA and PWA deployed seperately but integrated seamlessly</li>
+                <li>SPA and PWA deployed separately but integrated seamlessly</li>
                 <li>SPA: Server-Side Rendered (SSR) using NuxtJS (improved SEO, client-side routing)</li>
                 <li>PWA: Data capture with smooth animations, transitions, custom validations etc </li>
                 <li>PWA: State Management using Vuex </li>

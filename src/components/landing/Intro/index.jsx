@@ -29,7 +29,7 @@ export const Intro = () => {
             paddingTop: '20px',
             marginBottom: '40px',
             color: '#707070'}}>
-              I like to build things that are intuitive and visually appealing on the frontend, while maintaining a secure, modular, and performant architecture on the backend.
+              I like to build things that are intuitive and visually appealing, while maintaining a secure, modular, and performant architecture.
               I am currently open to <span style={{color: 'rgb(0, 116, 217)'}}>remote work </span> 
               opportunities building cool things with <span style={{color: 'rgb(0, 116, 217'}}>Javascript</span>
           </p>
